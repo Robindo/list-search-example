@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
-import { fetchDetails } from '../../actions/postActions';
+import { withTranslation } from 'react-i18next';
+import { fetchDetails } from '../../actions/getActions';
 import { Form, Header, Fields, Input, Button } from './ExampleFormStyle';
 
 class ExampleFormFields extends Component {
@@ -18,9 +19,11 @@ class ExampleFormFields extends Component {
   onClick = () => this.props.getDetails(this.state.searchValue);
 
   render = () => {
+    const { t } = this.props;
+
     return (
       <Form>
-        <Header>Which music genre are you searching for?</Header>
+        <Header>{t('search_title')}</Header>
         <Fields>
           <Input
             type='text'
@@ -29,7 +32,7 @@ class ExampleFormFields extends Component {
             onKeyUp={this.onKeyUp}
           />
           <Button type='button' onClick={this.onClick}>
-            send
+          {t('send')}
           </Button>
         </Fields>
       </Form>
@@ -45,7 +48,9 @@ const mapDispatch = dispatch => ({
   getDetails: query => dispatch(fetchDetails(query))
 });
 
-export default connect(
-  null,
-  mapDispatch
-)(ExampleFormFields);
+export default withTranslation()(
+  connect(
+    null,
+    mapDispatch
+  )(ExampleFormFields)
+);

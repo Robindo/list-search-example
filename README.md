@@ -1,6 +1,6 @@
 # Webpack, React & Redux initial setup
 
-This is an inital setup for a React project with Webpack and Redux, but extended with some styling, translation and input masking.
+This is an inital setup for a React project with Webpack and Redux, but extended with some styling and translation.
 
 ## Contains:
 
@@ -19,4 +19,3 @@ The initial setup contains an example of a simple form with an in put field and 
 - Styled components
 - Prettier (for Visual Studio Code code formatting)
 - i18n (translation)
-- React input mask

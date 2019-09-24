@@ -1,4 +1,4 @@
-import { FETCH_DETAILS, FETCH_LIST } from '../types/postTypes';
+import { FETCH_DETAILS, FETCH_LIST } from '../types/reducerTypes';
 import { getApiDetails } from '../api/dataApi';
 
 export const fetchDetails = query => dispatch =>

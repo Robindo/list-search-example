@@ -1,4 +1,4 @@
-import { FETCH_DETAILS, FETCH_LIST } from '../types/postTypes';
+import { FETCH_DETAILS, FETCH_LIST } from '../types/reducerTypes';
 
 const initialState = {
   list: []

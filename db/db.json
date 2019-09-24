@@ -3,42 +3,66 @@
     {
       "id": "1234",
       "title": "Soul",
-      "description": "Soul music is a kind of music that mixes rhythm and blues, gospel music and pop music. It started in the 1960s in the United States. Features of Soul Music are call and response, hand claps, body movement and a tense vocal sound. Ray Charles is said to be inventor of Soul with his song 'I Got a Woman'. Soul is energetic music with main subjects of lyrics being love, dance and life. Rock and Roll Hall of Fame states that soul is 'music that arose out of the black experience in America through the transmutation of gospel and rhythm & blues into a form of funky, secular testifying.' Recently, singers like Christina Aguilera, Amy Winehouse and Adele are known as Blue Eyed Soul singers. In some variations of soul brass and saxophones are used a lot.'"
+      "description": {
+        "en": "Soul music is a kind of music that mixes rhythm and blues, gospel music and pop music. It started in the 1960s in the United States. Features of Soul Music are call and response, hand claps, body movement and a tense vocal sound. Ray Charles is said to be inventor of Soul with his song 'I Got a Woman'. Soul is energetic music with main subjects of lyrics being love, dance and life. Rock and Roll Hall of Fame states that soul is 'music that arose out of the black experience in America through the transmutation of gospel and rhythm & blues into a form of funky, secular testifying.' Recently, singers like Christina Aguilera, Amy Winehouse and Adele are known as Blue Eyed Soul singers. In some variations of soul brass and saxophones are used a lot.",
+        "nl": "Soulmuziek is een soort muziek die ritme en blues, gospelmuziek en popmuziek combineert. Het begon in de jaren 1960 in de Verenigde Staten. Kenmerken van Soul Music zijn call en response, handklappen, lichaamsbeweging en een gespannen vocaal geluid. Ray Charles zou uitvinder zijn van Soul met zijn nummer 'I Got a Woman'. Soul is energieke muziek met als belangrijkste onderwerpen de teksten liefde, dans en leven. Rock and Roll Hall of Fame stelt dat soul 'muziek is die is voortgekomen uit de zwarte ervaring in Amerika door de transmutatie van evangelie en ritme & blues in een vorm van funky, seculier getuigen.' Onlangs staan zangers als Christina Aguilera, Amy Winehouse en Adele bekend als Blue Eyed Soul-zangers. In sommige variaties van soul worden koper en saxofoons veel gebruikt."
+      }
     },
     {
       "id": "5678",
       "title": "Funk",
-      "description": "Funk is a type of music from the United States that was developed the 1960s by African American musicians and singers such as James Brown, Sly and the Family Stone, George Clinton, and The Meters. Funk music emphasizes the rhythm of the music. Funk music is dance music that mixes rhythm and blues music with soul music. Funk bands use many rhythm instruments, such as electric guitar, bass guitar, drums, and keyboard instruments, mainly synthesizers and electronic organs. Funk bands also have people who play horns, including saxophones, trumpets, and trombones."
+      "description": {
+        "en": "Funk is a type of music from the United States that was developed the 1960s by African American musicians and singers such as James Brown, Sly and the Family Stone, George Clinton, and The Meters. Funk music emphasizes the rhythm of the music. Funk music is dance music that mixes rhythm and blues music with soul music. Funk bands use many rhythm instruments, such as electric guitar, bass guitar, drums, and keyboard instruments, mainly synthesizers and electronic organs. Funk bands also have people who play horns, including saxophones, trumpets, and trombones.",
+        "nl": "Funk is een soort muziek uit de Verenigde Staten die in de jaren zestig is ontwikkeld door Afro-Amerikaanse muzikanten en zangers zoals James Brown, Sly and the Family Stone, George Clinton en The Meters. Funkmuziek benadrukt het ritme van de muziek. Funkmuziek is dansmuziek die ritme en bluesmuziek combineert met soulmuziek. Funkbands gebruiken veel ritme-instrumenten, zoals elektrische gitaar, basgitaar, drums en keyboardinstrumenten, voornamelijk synthesizers en elektronische orgels. Funkbands hebben ook mensen die hoorns spelen, waaronder saxofoons, trompetten en trombones."
+      }
     },
     {
       "id": "9012",
       "title": "RnB",
-      "description": "R&B today defines a style of African-American music. It combines elements of soul music, funk music, pop music, and (after 1986) hip hop in what is now called contemporary R&B. It is sometimes called 'urban contemporary' or 'urban pop'."
+      "description": {
+        "en": "R&B today defines a style of African-American music. It combines elements of soul music, funk music, pop music, and (after 1986) hip hop in what is now called contemporary R&B. It is sometimes called 'urban contemporary' or 'urban pop'.",
+        "nl": "R&B definieert vandaag een stijl van Afro-Amerikaanse muziek. Het combineert elementen van soulmuziek, funkmuziek, popmuziek en (na 1986) hiphop in wat nu hedendaagse R&B wordt genoemd. Het wordt soms 'urban Contemporary' of 'Urban Pop' genoemd."
+      }
     },
     {
       "id": "3456",
       "title": "Hip Hop",
-      "description": "Hip hop is a type of culture/art style that started in the 1970s. It began in Jamaican American, African American, and Latino American urban areas in some of the larger cities of the United States. Hip hop uses rapping, where the rapper or group chants or says words with a rhythm that rhymes. The lyrics of hip hop songs are often about the life of urban people in the big cities. Some hip hop song lyrics are about gangs, violence, and illegal drugs. Hip hop music also uses musical styles from pop music such as disco and reggae. Rap and hip hop music have become successful music genres."
+      "description": {
+        "en": "Hip hop is a type of culture/art style that started in the 1970s. It began in Jamaican American, African American, and Latino American urban areas in some of the larger cities of the United States. Hip hop uses rapping, where the rapper or group chants or says words with a rhythm that rhymes. The lyrics of hip hop songs are often about the life of urban people in the big cities. Some hip hop song lyrics are about gangs, violence, and illegal drugs. Hip hop music also uses musical styles from pop music such as disco and reggae. Rap and hip hop music have become successful music genres.",
+        "nl": "Hiphop is een soort cultuur / kunststijl die begon in de jaren zeventig. Het begon in Jamaicaanse Amerikaanse, Afrikaanse Amerikaanse en Latijns-Amerikaanse stedelijke gebieden in enkele van de grotere steden van de Verenigde Staten. Hiphop maakt gebruik van rappen, waarbij de rapper of groep zingt of woorden zegt met een ritme dat rijmt. De teksten van hiphopnummers gaan vaak over het leven van stedelingen in de grote steden. Sommige songteksten van hiphopnummers gaan over bendes, geweld en illegale drugs. Hiphopmuziek maakt ook gebruik van muziekstijlen uit popmuziek zoals disco en reggae. Rap- en hiphopmuziek zijn succesvolle muziekgenres geworden."
+      }
     },
     {
       "id": "7890",
       "title": "Dancehall",
-      "description": "Dancehall is a genre of Jamaican popular music that originated in the late 1970s. Initially, dancehall was a more sparse version of reggae than the roots style, which had dominated much of the 1970s. In the mid-1980s, digital instrumentation became more prevalent, changing the sound considerably, with digital dancehall (or 'ragga') becoming increasingly characterized by faster rhythms. Key elements of dancehall music include its extensive use of Jamaican Patois rather than Jamaican standard English and a focus on the track instrumentals (or 'riddims')."
+      "description": {
+        "en": "Dancehall is a genre of Jamaican popular music that originated in the late 1970s. Initially, dancehall was a more sparse version of reggae than the roots style, which had dominated much of the 1970s. In the mid-1980s, digital instrumentation became more prevalent, changing the sound considerably, with digital dancehall (or 'ragga') becoming increasingly characterized by faster rhythms. Key elements of dancehall music include its extensive use of Jamaican Patois rather than Jamaican standard English and a focus on the track instrumentals (or 'riddims').",
+        "nl": "Dancehall is een genre van Jamaicaanse populaire muziek die zijn oorsprong vond in de late jaren zeventig. Aanvankelijk was dancehall een spaarzamere versie van reggae dan de rootsstijl, die een groot deel van de jaren zeventig had gedomineerd. Halverwege de jaren tachtig kwam digitale instrumentatie steeds vaker voor en veranderde het geluid aanzienlijk, waarbij digitale dancehall (of 'ragga') steeds meer werd gekenmerkt door snellere ritmes. Belangrijke elementen van dancehall-muziek zijn het uitgebreide gebruik van Jamaicaanse Patois in plaats van het Jamaicaanse standaard Engels en een focus op de instrumentale nummers (of 'riddims')."
+      }
     },
     {
       "id": "7890",
       "title": "Reggae",
-      "description": "Reggae (/ˈrɛɡeɪ/) is a music genre that originated in Jamaica in the late 1960s. The term also denotes the modern popular music of Jamaica and its diaspora. A 1968 single by Toots and the Maytals, 'Do the Reggay' was the first popular song to use the word 'reggae', effectively naming the genre and introducing it to a global audience."
+      "description": {
+        "en": "Reggae (/ˈrɛɡeɪ/) is a music genre that originated in Jamaica in the late 1960s. The term also denotes the modern popular music of Jamaica and its diaspora. A 1968 single by Toots and the Maytals, 'Do the Reggay' was the first popular song to use the word 'reggae', effectively naming the genre and introducing it to a global audience.",
+        "nl": "Reggae (/ ˈrɛɡeɪ /) is een muziekgenre dat eind jaren zestig in Jamaica is ontstaan. De term duidt ook de moderne populaire muziek van Jamaica en zijn diaspora aan. 'Do the Reggay', een single uit 1968 van Toots and the Maytals, was het eerste populaire nummer dat het woord 'reggae' gebruikte, waarmee het genre effectief werd benoemd en aan een wereldwijd publiek werd voorgesteld."
+      }
     },
     {
       "id": "7890",
       "title": "Rock",
-      "description": "Rock music is a genre of popular music. It developed during and after the 1960s in the United Kingdom and the United States. It originally started in the 1940s and 1950s with the start of rock and roll. Rock and roll grew out of rhythm and blues and country music. Rock music is related to a number of other genres such as blues and folk. It has influences from jazz, classical and other music genres."
+      "description": {
+        "en": "Rock music is a genre of popular music. It developed during and after the 1960s in the United Kingdom and the United States. It originally started in the 1940s and 1950s with the start of rock and roll. Rock and roll grew out of rhythm and blues and country music. Rock music is related to a number of other genres such as blues and folk. It has influences from jazz, classical and other music genres.",
+        "nl": "Rockmuziek is een genre van populaire muziek. Het ontwikkelde zich tijdens en na de jaren 1960 in het Verenigd Koninkrijk en de Verenigde Staten. Het begon oorspronkelijk in de jaren 1940 en 1950 met het begin van rock and roll. Rock and roll groeide uit ritme en blues en country muziek. Rockmuziek is gerelateerd aan een aantal andere genres zoals blues en folk. Het heeft invloeden uit jazz, klassieke en andere muziekgenres."
+      }
     },
     {
       "id": "4321",
       "title": "House",
-      "description": "House music is a type of electronic dance music. It began during the early 1980s from disco and the black American soul music tradition. It takes its name from the Warehouse, a Chicago club where DJs first played their records to a large audience. The original 'House' sound is characterized by 'four on the floor' beats at 120-130 BPM, forward-driven bass lines, an emphasis on the second and fourth beats of each measure, handclaps, and cymbals. Over the years, house has created many types of house music"
+      "description": {
+        "en": "House music is a type of electronic dance music. It began during the early 1980s from disco and the black American soul music tradition. It takes its name from the Warehouse, a Chicago club where DJs first played their records to a large audience. The original 'House' sound is characterized by 'four on the floor' beats at 120-130 BPM, forward-driven bass lines, an emphasis on the second and fourth beats of each measure, handclaps, and cymbals. Over the years, house has created many types of house music",
+        "nl": "House muziek is een soort elektronische dansmuziek. Het begon in de vroege jaren tachtig van disco en de zwarte Amerikaanse soulmuziektraditie. Het ontleent zijn naam aan het Warehouse, een club in Chicago waar DJ's hun platen voor het eerst voor een groot publiek speelden. Het originele 'House'-geluid wordt gekenmerkt door' vier op de vloer 'beats op 120-130 BPM, vooruitgestuurde baslijnen, een nadruk op de tweede en vierde beats van elke maat, handclaps en cimbalen. Door de jaren heen heeft house vele soorten house muziek gemaakt"
+      }
     }
   ]
 }
