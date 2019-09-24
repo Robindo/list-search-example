@@ -1,0 +1,44 @@
+{
+  "genres": [
+    {
+      "id": "1234",
+      "title": "Soul",
+      "description": "Soul music is a kind of music that mixes rhythm and blues, gospel music and pop music. It started in the 1960s in the United States. Features of Soul Music are call and response, hand claps, body movement and a tense vocal sound. Ray Charles is said to be inventor of Soul with his song 'I Got a Woman'. Soul is energetic music with main subjects of lyrics being love, dance and life. Rock and Roll Hall of Fame states that soul is 'music that arose out of the black experience in America through the transmutation of gospel and rhythm & blues into a form of funky, secular testifying.' Recently, singers like Christina Aguilera, Amy Winehouse and Adele are known as Blue Eyed Soul singers. In some variations of soul brass and saxophones are used a lot.'"
+    },
+    {
+      "id": "5678",
+      "title": "Funk",
+      "description": "Funk is a type of music from the United States that was developed the 1960s by African American musicians and singers such as James Brown, Sly and the Family Stone, George Clinton, and The Meters. Funk music emphasizes the rhythm of the music. Funk music is dance music that mixes rhythm and blues music with soul music. Funk bands use many rhythm instruments, such as electric guitar, bass guitar, drums, and keyboard instruments, mainly synthesizers and electronic organs. Funk bands also have people who play horns, including saxophones, trumpets, and trombones."
+    },
+    {
+      "id": "9012",
+      "title": "RnB",
+      "description": "R&B today defines a style of African-American music. It combines elements of soul music, funk music, pop music, and (after 1986) hip hop in what is now called contemporary R&B. It is sometimes called 'urban contemporary' or 'urban pop'."
+    },
+    {
+      "id": "3456",
+      "title": "Hip Hop",
+      "description": "Hip hop is a type of culture/art style that started in the 1970s. It began in Jamaican American, African American, and Latino American urban areas in some of the larger cities of the United States. Hip hop uses rapping, where the rapper or group chants or says words with a rhythm that rhymes. The lyrics of hip hop songs are often about the life of urban people in the big cities. Some hip hop song lyrics are about gangs, violence, and illegal drugs. Hip hop music also uses musical styles from pop music such as disco and reggae. Rap and hip hop music have become successful music genres."
+    },
+    {
+      "id": "7890",
+      "title": "Dancehall",
+      "description": "Dancehall is a genre of Jamaican popular music that originated in the late 1970s. Initially, dancehall was a more sparse version of reggae than the roots style, which had dominated much of the 1970s. In the mid-1980s, digital instrumentation became more prevalent, changing the sound considerably, with digital dancehall (or 'ragga') becoming increasingly characterized by faster rhythms. Key elements of dancehall music include its extensive use of Jamaican Patois rather than Jamaican standard English and a focus on the track instrumentals (or 'riddims')."
+    },
+    {
+      "id": "7890",
+      "title": "Reggae",
+      "description": "Reggae (/ˈrɛɡeɪ/) is a music genre that originated in Jamaica in the late 1960s. The term also denotes the modern popular music of Jamaica and its diaspora. A 1968 single by Toots and the Maytals, 'Do the Reggay' was the first popular song to use the word 'reggae', effectively naming the genre and introducing it to a global audience."
+    },
+    {
+      "id": "7890",
+      "title": "Rock",
+      "description": "Rock music is a genre of popular music. It developed during and after the 1960s in the United Kingdom and the United States. It originally started in the 1940s and 1950s with the start of rock and roll. Rock and roll grew out of rhythm and blues and country music. Rock music is related to a number of other genres such as blues and folk. It has influences from jazz, classical and other music genres."
+    },
+    {
+      "id": "4321",
+      "title": "House",
+      "description": "House music is a type of electronic dance music. It began during the early 1980s from disco and the black American soul music tradition. It takes its name from the Warehouse, a Chicago club where DJs first played their records to a large audience. The original 'House' sound is characterized by 'four on the floor' beats at 120-130 BPM, forward-driven bass lines, an emphasis on the second and fourth beats of each measure, handclaps, and cymbals. Over the years, house has created many types of house music"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "eslint.options": {
+    "parserOptions": {
+      "ecmaVersion": 6,
+      "sourceType": "module"
+    }
+  }
+}
