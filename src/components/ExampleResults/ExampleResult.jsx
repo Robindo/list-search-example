@@ -1,5 +1,5 @@
 import React from 'react';
-import { useTranslation } from "react-i18next";
+import { useTranslation } from 'react-i18next';
 import { Genre, Title, Description } from './ExampleStyle';
 
 const ExampleResult = ({ content }) => {
@@ -11,6 +11,6 @@ const ExampleResult = ({ content }) => {
       <Description>{t(content.description[i18n.language])}</Description>
     </Genre>
   );
-}
+};
 
 export default ExampleResult;

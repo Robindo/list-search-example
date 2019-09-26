@@ -18,12 +18,12 @@ i18n
     // i18next has a small plugin that makes it easy.
     // learn more: https://github.com/i18next/i18next-xhr-backend
     resources: {
-        'en':{
-            'translation': en
-        },
-        'nl': {
-            'translation': nl
-        }
+      en: {
+        translation: en
+      },
+      nl: {
+        translation: nl
+      }
     },
     interpolation: {
       escapeValue: false // not needed for React as it escapes by default

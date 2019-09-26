@@ -7,7 +7,8 @@
   "scripts": {
     "start": "concurrently \"webpack-dev-server --mode development --open --hot\" \"json-server db/db.json --port 8081\"",
     "webpack": "webpack --mode development",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "server": "json-server db/db.json --port 8081"
   },
   "author": "Robindo",
   "license": "ISC",
