@@ -8,13 +8,12 @@
     "start": "concurrently \"webpack-dev-server --mode development --open --hot\" \"json-server db/db.json --port 8081\"",
     "webpack": "webpack --mode development",
     "build": "webpack --mode production",
-    "server": "json-server db/db.json --port 8081"
+    "server": "json-server db/db.json --port 8081",
+    "cypress": "cypress open"
   },
   "author": "Robindo",
   "license": "ISC",
   "dependencies": {
-    "i18next": "^17.0.16",
-    "i18next-browser-languagedetector": "^3.0.3",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-i18next": "^10.13.0",
@@ -35,6 +34,7 @@
     "babel-preset-react": "^6.24.1",
     "concurrently": "^4.1.2",
     "css-loader": "^3.2.0",
+    "cypress": "^3.4.1",
     "eslint": "^6.1.0",
     "eslint-config-prettier": "^6.2.0",
     "eslint-plugin-import": "^2.18.2",
@@ -42,6 +42,8 @@
     "eslint-plugin-react": "^7.14.3",
     "eslint-plugin-react-hooks": "^1.7.0",
     "html-webpack-plugin": "^3.2.0",
+    "i18next": "^17.0.17",
+    "i18next-browser-languagedetector": "^3.0.3",
     "json-server": "^0.15.1",
     "mini-css-extract-plugin": "^0.8.0",
     "node-sass": "^4.12.0",

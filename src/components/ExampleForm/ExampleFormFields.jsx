@@ -26,13 +26,19 @@ class ExampleFormFields extends Component {
         <Header>{t('search_title')}</Header>
         <Fields>
           <Input
-            type='text'
-            name='search'
+            type="text"
+            name="search"
+            className="search-input"
+            autoFocus
             onChange={this.onChange}
             onKeyUp={this.onKeyUp}
           />
-          <Button type='button' onClick={this.onClick}>
-          {t('send')}
+          <Button
+            type="button"
+            onClick={this.onClick}
+            className="submit-button"
+          >
+            {t('send')}
           </Button>
         </Fields>
       </Form>
