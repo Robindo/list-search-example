@@ -35,8 +35,8 @@ class ExampleFormFields extends Component {
           />
           <Button
             type="button"
+            className="button-submit"
             onClick={this.onClick}
-            className="submit-button"
           >
             {t('send')}
           </Button>

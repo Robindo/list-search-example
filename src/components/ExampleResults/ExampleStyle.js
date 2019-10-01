@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 const Genre = styled('div')`
+  color: #a4a4a4;
   display: flex;
   flex-direction: column;
   font-size: 15px;
@@ -8,7 +9,7 @@ const Genre = styled('div')`
 `;
 
 const Title = styled('h1')`
-  font-color: #ccc;
+  color: #cb4b20;
 `;
 
 const Description = styled('p')`

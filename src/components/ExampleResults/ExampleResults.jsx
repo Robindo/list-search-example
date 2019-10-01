@@ -7,6 +7,8 @@ class ExampleResults extends Component {
   render() {
     const { results } = this.props;
 
+    if (results.length === 0) return <Fragment>....</Fragment>;
+
     return (
       <Fragment>
         {results.map((item, i) => (
