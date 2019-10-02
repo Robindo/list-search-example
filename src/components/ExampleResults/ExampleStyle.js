@@ -16,4 +16,9 @@ const Description = styled('p')`
   margin: 1rem 0 0 0;
 `;
 
-export { Genre, Title, Description };
+const NoResults = styled('div')`
+  color: #cb4b20;
+  font-size: 15px;
+`;
+
+export { Genre, Title, Description, NoResults };

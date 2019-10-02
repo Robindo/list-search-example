@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { withTranslation } from 'react-i18next';
-import { Languages } from './LanguageStyle';
+import { Languages, Svg } from './LanguageStyle';
+import nld from '../../assets/images/NLD.svg';
+import gbr from '../../assets/images/GBR.svg';
 
 class Language extends Component {
   componentDidMount = () => {
@@ -18,8 +20,12 @@ class Language extends Component {
 
     return (
       <Languages>
-        <li onClick={() => this.setLanguage('nl')}>[{t('dutch')}]</li>
-        <li onClick={() => this.setLanguage('en')}>[{t('english')}]</li>
+        <li onClick={() => this.setLanguage('nl')}>
+          <Svg src={nld} width="25" />
+        </li>
+        <li onClick={() => this.setLanguage('en')}>
+          <Svg src={gbr} width="25" />
+        </li>
       </Languages>
     );
   }

@@ -3,5 +3,6 @@ export const en = {
   dutch: 'Dutch',
   english: 'English',
   send: 'Send',
-  characters_only: '(characters only)'
+  characters_only: '(characters only)',
+  no_results: '0 results'
 };

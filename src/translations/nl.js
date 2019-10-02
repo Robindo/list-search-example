@@ -3,5 +3,6 @@ export const nl = {
   dutch: 'Nederlands',
   english: 'Engels',
   send: 'Verstuur',
-  characters_only: '(alleen karakters)'
+  characters_only: '(alleen karakters)',
+  no_results: '0 resultaten'
 };

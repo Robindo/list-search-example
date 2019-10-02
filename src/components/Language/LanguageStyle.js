@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import SVG from 'react-inlinesvg';
 
 const Languages = styled('ul')`
   align-self: flex-end;
@@ -18,4 +19,8 @@ const Languages = styled('ul')`
   }
 `;
 
-export { Languages };
+const Svg = styled(SVG)`
+  margin: 0 0 0 15px;
+`;
+
+export { Languages, Svg };

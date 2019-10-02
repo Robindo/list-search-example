@@ -39,11 +39,12 @@ const Button = styled('button')`
   margin: 0 0 0 1rem;
   padding: 10px 15px;
   outline: none;
+  transition: 0.5s;
 
   &:hover {
-    background-color: #cb4b20;
     cursor: pointer;
     color: #fff;
+    box-shadow: inset 0px -4em 0px 0px #cb4b20;
   }
 `;
 
