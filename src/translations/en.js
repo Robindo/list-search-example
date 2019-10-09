@@ -3,6 +3,15 @@ export const en = {
   dutch: 'Dutch',
   english: 'English',
   send: 'Send',
+  save: 'Save',
+  cancel: 'Cancel',
+  search: 'Search',
+  edit: 'Edit',
+  remove: 'Remove',
   characters_only: '(characters only)',
-  no_results: '0 results'
+  no_results: '0 results',
+  add_new: 'Add new',
+  go_back: 'Go back',
+  genre: 'Genre',
+  title_page_item: 'Genre details'
 };

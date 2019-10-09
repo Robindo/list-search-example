@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import { withTranslation } from 'react-i18next';
-import { fetchDetails } from '../../actions/getActions';
+import { getAllDetails } from '../../actions/getActions';
 import { Form, Header, Fields, Input, Button } from './ExampleFormStyle';
 
 class ExampleFormFields extends Component {
@@ -38,7 +38,7 @@ class ExampleFormFields extends Component {
             className="button-submit"
             onClick={this.onClick}
           >
-            {t('send')}
+            {t('search')}
           </Button>
         </Fields>
       </Form>
@@ -51,7 +51,7 @@ ExampleFormFields.propTypes = {
 };
 
 const mapDispatch = dispatch => ({
-  getDetails: query => dispatch(fetchDetails(query))
+  getDetails: query => dispatch(getAllDetails(query))
 });
 
 export default withTranslation()(

@@ -1,15 +1,26 @@
-import { FETCH_DETAILS, FETCH_LIST } from '../types/reducerTypes';
-import { getApiDetails } from '../api/dataApi';
+import { GET_LIST, GET_DETAILS } from '../types/reducerTypes';
+import { getApiDetails, getApiDetailsById } from '../api/dataApi';
 
-export const fetchDetails = query => dispatch =>
+export const getAllDetails = query => dispatch =>
   getApiDetails(query)
     .then(response => {
       //  set result to Redux
       dispatch({
-        type: FETCH_DETAILS,
+        type: GET_LIST,
         payload: response
       });
       //  Because the root reducer key is set to 'data'
       return response.data;
+    })
+    .catch(error => console.error(error));
+
+export const getDetailsById = id => dispatch =>
+  getApiDetailsById(id)
+    .then(response => {
+      dispatch({
+        type: GET_DETAILS,
+        payload: response
+      });
+      return response[0];
     })
     .catch(error => console.error(error));

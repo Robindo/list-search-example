@@ -11,7 +11,7 @@ class Language extends Component {
   };
 
   setLanguage = lang => {
-    const { i18n } = this.props;
+    const { i18n, t } = this.props;
     i18n.changeLanguage(lang);
   };
 
@@ -21,10 +21,14 @@ class Language extends Component {
     return (
       <Languages>
         <li onClick={() => this.setLanguage('nl')}>
-          <Svg src={nld} width="25" />
+          <a title={t('dutch')}>
+            <Svg src={nld} width="25" />
+          </a>
         </li>
         <li onClick={() => this.setLanguage('en')}>
-          <Svg src={gbr} width="25" />
+          <a title={t('english')}>
+            <Svg src={gbr} width="25" />
+          </a>
         </li>
       </Languages>
     );

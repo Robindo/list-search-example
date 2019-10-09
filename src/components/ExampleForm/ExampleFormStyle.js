@@ -1,5 +1,9 @@
 import styled from 'styled-components';
 
+const Header = styled('h1')`
+  font-size: 20px;
+`;
+
 const Form = styled('div')`
   color: #cb4b20;
   display: flex;
@@ -7,10 +11,6 @@ const Form = styled('div')`
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 15px;
   margin: 2rem 0;
-`;
-
-const Header = styled('h1')`
-  font-size: 20px;
 `;
 
 const Fields = styled('div')`
@@ -28,6 +28,12 @@ const Input = styled('input')`
   padding: 5px 10px;
   outline: none;
   text-transform: capitalize;
+  transition: 0.5s;
+
+  &:hover {
+    color: #a4a4a4;
+    border-color: #a4a4a4;
+  }
 `;
 
 const Button = styled('button')`
@@ -37,15 +43,20 @@ const Button = styled('button')`
   color: #cb4b20;
   font-size: 16px;
   margin: 0 0 0 1rem;
-  padding: 10px 15px;
+  padding: 10px 20px;
   outline: none;
   transition: 0.5s;
 
   &:hover {
     cursor: pointer;
-    color: #fff;
-    box-shadow: inset 0px -4em 0px 0px #cb4b20;
+    color: #a4a4a4;
+    border: 1px solid #a4a4a4;
+  }
+
+  &:hover + &:hover {
+    color: #a4a4a4;
+    border: 1px solid #a4a4a4;
   }
 `;
 
-export { Form, Header, Fields, Input, Button };
+export { Header, Form, Fields, Input, Button };

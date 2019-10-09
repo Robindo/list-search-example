@@ -13,4 +13,4 @@ width: auto;
 }
 `;
 
-export { Wrapper };
+export default Wrapper;

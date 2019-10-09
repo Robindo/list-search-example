@@ -1,23 +1,41 @@
-import { FETCH_DETAILS, FETCH_LIST } from '../types/reducerTypes';
+import {
+  GET_LIST,
+  GET_DETAILS,
+  ADD_DETAILS,
+  REMOVE_DETAILS
+} from '../types/reducerTypes';
 
 const initialState = {
-  list: []
+  list: [],
+  details: {}
 };
 
 const rootReducer = (state = initialState, action) => {
   switch (action.type) {
-    case FETCH_DETAILS:
+    case GET_LIST:
       return {
         ...state,
         list: action.payload
       };
       break;
-    case FETCH_LIST:
+    case GET_DETAILS:
       return {
         ...state,
-        list: action.payload
+        details: action.payload
       };
-      break;
+    case ADD_DETAILS:
+      return {
+        ...state,
+        list: [...state, { ...action.payload }],
+        details: action.payload
+      };
+    case REMOVE_DETAILS:
+      //  Note: state.list.filter(item => item.id !== action.payload) should be in a separate reducer
+      return {
+        ...state,
+        list: state.list.filter(item => item.id !== action.payload),
+        details: {}
+      };
     default:
       return state;
   }
