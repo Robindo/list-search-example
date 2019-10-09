@@ -80,6 +80,7 @@ class ExampleDetails extends Component {
             <TextInput
               type="text"
               name="title"
+              className="input-title"
               value={title}
               onChange={this.handleInputChange}
             />
@@ -89,6 +90,7 @@ class ExampleDetails extends Component {
             <TextArea
               value={description_nl}
               name="description_nl"
+              className="textarea-nl"
               onChange={this.handleInputChange}
               rows="6"
             />
@@ -98,6 +100,7 @@ class ExampleDetails extends Component {
             <TextArea
               value={description_en}
               name="description_en"
+              className="textarea-en"
               rows="6"
               onChange={this.handleInputChange}
             />

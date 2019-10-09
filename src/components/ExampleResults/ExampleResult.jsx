@@ -22,14 +22,14 @@ const ExampleResult = ({ content, onRemove }) => {
       <Title>{content.title}</Title>
       <Description>{t(content.description[i18n.language])}</Description>
       <IconsLinks>
-        <IconLink to={`/details/${content.id}`} title={t('edit')}>
+        <IconLink to={`/details/${content.id}`} title={t('edit')} className="edit-item">
           <Svg src={edit} width="15" height="15" />
         </IconLink>
-        <IconLink to="/details" title={t('add_new')}>
+        <IconLink to="/details" title={t('add_new')} className="add-new-item">
           <Svg src={add} width="15" height="15" />
         </IconLink>
         {!locked.includes(content.id) && (
-          <SimpleLink onClick={() => onRemove(content.id)} title={t('remove')}>
+          <SimpleLink onClick={() => onRemove(content.id)} title={t('remove')} className="remove-item">
             <Svg src={remove} width="15" height="15" />
           </SimpleLink>
         )}
