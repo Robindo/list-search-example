@@ -30,7 +30,8 @@ const rootReducer = (state = initialState, action) => {
         details: action.payload
       };
     case REMOVE_DETAILS:
-      //  Note: state.list.filter(item => item.id !== action.payload) should be in a separate reducer
+      //  Note: state.list.filter(item => item.id !== action.payload) should be in a separate selector
+      //  TODO: use reselect and normalizr in seperate selectors
       return {
         ...state,
         list: state.list.filter(item => item.id !== action.payload),
