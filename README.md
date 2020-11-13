@@ -19,3 +19,6 @@ The initial setup contains an example of a simple form with an in put field and 
 - Styled components
 - Prettier (for Visual Studio Code code formatting)
 - i18n (translation)
+
+Example:
+http://search-example.s-fire.nl/
